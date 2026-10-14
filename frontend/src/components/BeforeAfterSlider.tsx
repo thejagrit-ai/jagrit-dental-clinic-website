@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type CSSProperties } from "react";
 
 type BeforeAfterSliderProps = {
   beforeSrc: string;
@@ -24,10 +24,10 @@ export function BeforeAfterSlider({ beforeSrc, afterSrc, comparisonSrc, alt }: B
     : undefined;
 
   return (
-    <div className="before-after" style={{ "--slider-position": `${position}%` } as React.CSSProperties}>
+    <div className="before-after" style={{ "--slider-position": `${position}%` } as CSSProperties}>
       <div
         className="before-after-pane before-after-before"
-        style={sharedBackground ?? { backgroundImage: `url(${beforeSrc})` }}
+        style={sharedBackground ? { ...sharedBackground, backgroundPosition: "left center" } : { backgroundImage: `url(${beforeSrc})` }}
         aria-hidden="true"
       />
       <div
