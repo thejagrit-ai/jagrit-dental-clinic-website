@@ -5,8 +5,6 @@ Premium dental clinic website created and developed by **Jagrit Sharma**.
 Ivory & Sage is a calm, modern dental experience with smooth GSAP motion, interactive treatment comparisons,
 doctor profiles, patient stories, FAQs, and appointment requests.
 
-![Ivory & Sage Dental Studio hero](frontend/public/images/hero.png)
-
 - **frontend/** — Next.js 16 (App Router, TypeScript, Tailwind CSS v4, GSAP)
 - **backend/** — Django 6.1 + Django REST Framework
 
