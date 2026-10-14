@@ -1,18 +1,11 @@
-# Smile Care — Landing Page
+# Ivory & Sage Dental Studio
 
-**Live site: [smilecare-pi.vercel.app](https://smilecare-pi.vercel.app)**
+Premium dental clinic website created and developed by **Jagrit Sharma**.
 
-Dental clinic website built from a Figma design: Next.js 16 frontend with GSAP motion,
-Django REST backend for testimonials, FAQs and appointment requests.
+Ivory & Sage is a calm, modern dental experience with smooth GSAP motion, interactive treatment comparisons,
+doctor profiles, patient stories, FAQs, and appointment requests.
 
-![Smile Care hero](docs/hero.jpg)
-
-<details>
-<summary>Full page</summary>
-
-![Smile Care full page](docs/full-page.jpg)
-
-</details>
+![Ivory & Sage Dental Studio hero](frontend/public/images/hero.png)
 
 - **frontend/** — Next.js 16 (App Router, TypeScript, Tailwind CSS v4, GSAP)
 - **backend/** — Django 6.1 + Django REST Framework
@@ -40,7 +33,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000 — the site also works without the backend (it falls back to the design copy).
+Open http://localhost:3000 — the frontend also works without the backend using its fallback content.
 
 ## API
 
@@ -69,9 +62,10 @@ All motion lives in `frontend/src/components/Motion.tsx` (GSAP + ScrollTrigger, 
 
 Everything is switched off for visitors with *reduce motion* enabled.
 
-## Design notes
+## Project identity
 
-- Font: **Geist** (500 for headings, 400 for body) via `next/font/google`.
-- Icons in `components/icons.tsx` were extracted from the design's vector paths.
-- Copy is kept exactly as designed, including its spellings
-  ("Book an appoinment", "Dental Impacts", "Dental Hygenist", "Veeners", "Tartar Removals", "Why US").
+- **Clinic:** Ivory & Sage Dental Studio
+- **Developer:** Jagrit Sharma
+- **Frontend:** Next.js 16, TypeScript, Tailwind CSS v4, GSAP
+- **Backend:** Django 6.1 and Django REST Framework
+- **License:** MIT — see [LICENSE](LICENSE)

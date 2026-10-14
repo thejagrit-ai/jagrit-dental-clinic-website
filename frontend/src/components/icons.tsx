@@ -1,4 +1,4 @@
-// Icons extracted from the Smile Care design file. All use currentColor.
+// Icons used throughout the Ivory & Sage Dental Studio interface.
 type IconProps = { className?: string };
 
 export function Phone({ className }: IconProps) {

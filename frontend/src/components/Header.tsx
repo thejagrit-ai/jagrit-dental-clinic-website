@@ -12,8 +12,8 @@ export function Header() {
   return (
     <header data-site-header className="fixed inset-x-0 top-0 z-50 border-b border-transparent">
       <div className="mx-auto flex h-[92px] max-w-[1200px] items-center px-4 xl:px-0">
-        <a href="#top" aria-label="Smile Care home" className="shrink-0 xl:-ml-[13px]">
-          <Image quality={90} src="/images/logo.png" alt="Smile Care" width={120} height={60} preload />
+        <a href="#top" aria-label="Ivory and Sage Dental Studio home" className="shrink-0 xl:-ml-[13px]">
+          <Image quality={90} src="/images/logo.png" alt="Ivory and Sage Dental Studio" width={120} height={60} preload />
         </a>
 
         <nav aria-label="Primary" className="hidden lg:ml-[254px] lg:block">

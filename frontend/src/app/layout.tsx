@@ -9,9 +9,9 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Smile Care — Repair your smile. Restore your confidence.",
+  title: "Ivory & Sage Dental Studio — Considered care for healthier smiles",
   description:
-    "From whitening and fillings to implants, veneers, and crowns, Smile Care provides modern dental treatments designed around the result you want.",
+    "Ivory & Sage Dental Studio provides calm, modern dental care with clear treatment plans, thoughtful follow-up, and a patient-first experience.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

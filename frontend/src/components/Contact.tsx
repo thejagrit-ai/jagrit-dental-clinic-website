@@ -85,7 +85,7 @@ export function Contact() {
         <div data-clip data-parallax className="relative aspect-[588/690] overflow-hidden">
           <Image quality={90}
             src="/images/clinic.jpg"
-            alt="Smile Care clinic entrance at dusk"
+            alt="Ivory and Sage Dental Studio clinic interior"
             fill
             sizes="(min-width: 1024px) 588px, 100vw"
             className="object-cover"

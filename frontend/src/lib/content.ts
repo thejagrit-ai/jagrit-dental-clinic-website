@@ -1,4 +1,4 @@
-// Default copy from the Smile Care design. FAQs and testimonials are replaced by
+// Default copy for Ivory & Sage Dental Studio. FAQs and testimonials are replaced by
 // the Django API when it is reachable (see lib/api.ts), so the clinic can edit them in the admin.
 
 export type Testimonial = {
@@ -16,12 +16,12 @@ export type Faq = {
   openByDefault: boolean;
 };
 
-export const PHONE_DISPLAY = "+977 9812345678";
-export const PHONE_DISPLAY_ALT = "(977) 9812345678";
-export const PHONE_HREF = "tel:+9779812345678";
-export const EMAIL = "contact@smilecare.com";
-export const ADDRESS = "123, Newroad, Kathmandu";
-export const HOURS = "Mon–Fri 8am–6pm, Sat 9am–2pm";
+export const PHONE_DISPLAY = "+91 98123 45678";
+export const PHONE_DISPLAY_ALT = "+91 98123 45678";
+export const PHONE_HREF = "tel:+919812345678";
+export const EMAIL = "care@ivoryandsage.in";
+export const ADDRESS = "18 Prithviraj Road, C-Scheme, Jaipur, Rajasthan 302001";
+export const HOURS = "Mon–Fri 9am–7pm, Sat 9am–5pm";
 
 export const NAV_LINKS = [
   { label: "Services", href: "#services" },

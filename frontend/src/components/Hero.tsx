@@ -22,18 +22,18 @@ export function Hero() {
       <Container className="relative pb-24 pt-[180px] lg:pb-0 lg:pt-[265px]">
         <p data-hero className="flex items-center gap-2 text-[14px] font-medium leading-[17px] text-silver">
           <span data-hero-line className="h-px w-6 origin-left bg-bronze" aria-hidden />
-          DENTAL TREATMENTS
+          IVORY &amp; SAGE DENTAL STUDIO
         </p>
 
         <h1 data-hero-title className="mt-[20px] text-[40px] font-medium leading-[1.25] text-white sm:text-[56px] sm:leading-[74px]">
-          Repair your smile.
+          Feel good about
           <br />
-          Restore your confidence.
+          your next visit.
         </h1>
 
         <p data-hero className="mt-[25px] max-w-[520px] text-[18px] leading-[26px] text-silver sm:text-[20px]">
-          From whitening and fillings to implants, veneers, and crowns, we provide modern dental treatments designed
-          around the result you want.
+          Calm, modern dentistry with clear choices, considered treatment plans, and a team that gives you room to ask
+          every question.
         </p>
 
         <div data-hero-group className="mt-[25px] flex flex-wrap items-start gap-[15px]">
